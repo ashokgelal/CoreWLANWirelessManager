@@ -1,0 +1,5 @@
+CoreWLANWirelessManager MonoMac Sample
+
+This is an attempt to rewrite Apple's CoreWLANWirelessManager sample from Mac OS X Reference Library (http://goo.gl/YzEQy) using MonoMac. This is incomplete and should be merged into MonoMac core samples once it is completed.
+
+
