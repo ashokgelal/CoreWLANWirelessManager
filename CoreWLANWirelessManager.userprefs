@@ -2,15 +2,14 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="MainWindowController.cs">
     <Files>
-      <File FileName="CWGlobals.cs" Line="49" Column="2" />
-      <File FileName="ScanResultsTableDataSource.cs" Line="53" Column="4" />
-      <File FileName="MainWindowController.cs" Line="407" Column="28" />
+      <File FileName="MainWindowController.cs" Line="16" Column="14" />
+      <File FileName="CWGlobals.cs" Line="5" Column="14" />
+      <File FileName="ScanResultsTableDataSource.cs" Line="5" Column="14" />
+      <File FileName="MainWindow.xib.designer.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/ashokgelal/Projects/CoreWLANWirelessManager/MainWindowController.cs" line="531" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
