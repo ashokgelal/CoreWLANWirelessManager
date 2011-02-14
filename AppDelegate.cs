@@ -26,11 +26,7 @@ namespace CoreWLANWirelessManager
 			return true;
 		}
 		
-		public override void DidFinishLaunching (NSNotification notification)
-		{
-			base.DidFinishLaunching (notification);
-			mainWindowController.WindowDidLoad();
-		}
+		
 	}
 }
 

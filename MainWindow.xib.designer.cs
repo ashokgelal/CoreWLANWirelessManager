@@ -46,7 +46,7 @@ namespace CoreWLANWirelessManager {
 		
 		private global::MonoMac.AppKit.NSButton __mt_joinCancelButton;
 		
-		private global::MonoMac.AppKit.NSWindow __mt_joinDialogButton;
+		private global::MonoMac.AppKit.NSWindow __mt_joinDialogWindow;
 		
 		private global::MonoMac.AppKit.NSTextField __mt_joinNetworkNameField;
 		
@@ -58,7 +58,7 @@ namespace CoreWLANWirelessManager {
 		
 		private global::MonoMac.AppKit.NSProgressIndicator __mt_joinSpinner;
 		
-		private global::MonoMac.AppKit.NSPopUpButton __mt_joinUser8021XProfile;
+		private global::MonoMac.AppKit.NSPopUpButton __mt_joinUser8021XProfilePopupButton;
 		
 		private global::MonoMac.AppKit.NSTextField __mt_joinUsernameField;
 		
@@ -294,15 +294,15 @@ namespace CoreWLANWirelessManager {
 			}
 		}
 		
-		[MonoMac.Foundation.Connect("joinDialogButton")]
-		private global::MonoMac.AppKit.NSWindow joinDialogButton {
+		[MonoMac.Foundation.Connect("joinDialogWindow")]
+		private global::MonoMac.AppKit.NSWindow joinDialogWindow {
 			get {
-				this.__mt_joinDialogButton = ((global::MonoMac.AppKit.NSWindow)(this.GetNativeField("joinDialogButton")));
-				return this.__mt_joinDialogButton;
+				this.__mt_joinDialogWindow = ((global::MonoMac.AppKit.NSWindow)(this.GetNativeField("joinDialogWindow")));
+				return this.__mt_joinDialogWindow;
 			}
 			set {
-				this.__mt_joinDialogButton = value;
-				this.SetNativeField("joinDialogButton", value);
+				this.__mt_joinDialogWindow = value;
+				this.SetNativeField("joinDialogWindow", value);
 			}
 		}
 		
@@ -366,15 +366,15 @@ namespace CoreWLANWirelessManager {
 			}
 		}
 		
-		[MonoMac.Foundation.Connect("joinUser8021XProfile")]
-		private global::MonoMac.AppKit.NSPopUpButton joinUser8021XProfile {
+		[MonoMac.Foundation.Connect("joinUser8021XProfilePopupButton")]
+		private global::MonoMac.AppKit.NSPopUpButton joinUser8021XProfilePopupButton {
 			get {
-				this.__mt_joinUser8021XProfile = ((global::MonoMac.AppKit.NSPopUpButton)(this.GetNativeField("joinUser8021XProfile")));
-				return this.__mt_joinUser8021XProfile;
+				this.__mt_joinUser8021XProfilePopupButton = ((global::MonoMac.AppKit.NSPopUpButton)(this.GetNativeField("joinUser8021XProfilePopupButton")));
+				return this.__mt_joinUser8021XProfilePopupButton;
 			}
 			set {
-				this.__mt_joinUser8021XProfile = value;
-				this.SetNativeField("joinUser8021XProfile", value);
+				this.__mt_joinUser8021XProfilePopupButton = value;
+				this.SetNativeField("joinUser8021XProfilePopupButton", value);
 			}
 		}
 		

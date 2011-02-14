@@ -58,6 +58,7 @@
       <DependentUpon>MainMenu.xib</DependentUpon>
     </Compile>
     <Compile Include="CWGlobals.cs" />
+    <Compile Include="ScanResultsTableDataSource.cs" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="MainWindow.xib" />
